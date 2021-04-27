@@ -26,21 +26,21 @@ Data is extracted from staging tables and inserted into the dimensional model sh
 # Files 
 
 1. environment.yml
-* Anaconda yaml file to reproduce execution environment. Load this environment when running python scripts.
+ * Anaconda yaml file to reproduce execution environment. Load this environment when running python scripts.
 2. dimensional_model.er & stage_schema.er
-* Entity-relationship files used to generate ER diagram images
+ * Entity-relationship files used to generate ER diagram images
 3. create_redshift_cluster_database.py
-* Create AWS RedShift cluster & create sparkify db
+ * Create AWS RedShift cluster & create sparkify db
 4. sql_queries.py
-* DROP, CREATE, INSERT, COPY statements for all sparkify db objects
+ * DROP, CREATE, INSERT, COPY statements for all sparkify db objects
 5. create_tables.py
-* CREATE and DROP all required tables in sql_queries.py
+ * CREATE and DROP all required tables in sql_queries.py
 6. etl.py
-* ETL cordinator to run INSERT & COPY SQL scripts in sql_queries.py
+ * ETL cordinator to run INSERT & COPY SQL scripts in sql_queries.py
 7. cleanup_cluster.py
-* Remove RedShift AWS cluster as well as created IAM role
+ * Remove RedShift AWS cluster as well as created IAM role
 8. dwh.cfg
-* Config file for all necessary variables for AWS RedShift, sparkify db, IAM role, and S3 buckets
+ * Config file for all necessary variables for AWS RedShift, sparkify db, IAM role, and S3 buckets
 
 Create Anaconda environment using given environment.yml file:
 
