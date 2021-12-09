@@ -75,6 +75,9 @@ python cleanup_cluster.py
 Created a database warehouse utilizing Amazon Redshift. Skills include:
 
 Creating a Redshift Cluster, IAM Roles, Security groups.
+
 Develop an ETL Pipeline that copies data from S3 buckets into staging tables to be processed into a star schema
+
 Developed a star schema with optimization to specific queries required by the data analytics team.
+
 Proficiencies used: Python, Amazon Redshift, aws cli, Amazon SDK, SQL, PostgreSQL
